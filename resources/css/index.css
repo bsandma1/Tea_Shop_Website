@@ -1,0 +1,113 @@
+/* Universal Selectors */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Header Selectors */
+
+header {
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  display: inline-flex;
+  align-items: center;
+  flex-grow: 1;
+  z-index: 1;
+}
+#logo {
+  width: 35%;
+  display: flex;
+  margin-left: 10px;
+  flex-shrink: 1;
+}
+#logo img{
+  height: 50px;
+}
+#nav-links {
+  width: 65%;
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+  flex-shrink: 1;
+}
+#nav-links a {
+  text-decoration: underline;
+  color: seashell;
+  padding: 0 10px 0 10px;
+}
+
+/* Main Selectors */
+
+#main {
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-div {
+  margin-top: 100px;
+}
+
+/* Main / Mission Selectors */
+
+#mission {
+  background-image: url(/home/bsandma1/Desktop/Codecademy-Projects/tea-shop-4/resources/images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mission-child {
+  background-color: black;
+  height: 100px;
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* Main / Tea Selectors */
+
+#tea {
+  height: auto;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+#tea-header {
+  width: 1000px;
+}
+#tea-header h4 {
+  margin: 15px 0;
+}
+#tea .figure {
+  height: auto;
+  width: 300px;
+  margin: 15px;
+}
+#tea .figure img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 6px;
+}
+
+/* Main / Locations Selectors */
+
+/* Footer Selectors */
