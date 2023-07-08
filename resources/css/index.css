@@ -105,9 +105,63 @@ header {
 #tea .figure img {
   height: 200px;
   width: 300px;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
 }
 
 /* Main / Locations Selectors */
 
+#locations {
+  height: 550px;
+  width: 1200px;
+  background-image: url(/home/bsandma1/Desktop/Codecademy-Projects/tea-shop-4/resources/images/img-locations-background.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+#locations-header {
+  width: 1200px;
+}
+#locations .figure {
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 20px;
+}
+#locations h4 {
+  margin: 17px 0 22px 0;
+}
+#locations h3 {
+  margin: 22px 0 17px 0;
+}
+
 /* Footer Selectors */
+
+#footer {
+  position: relative;
+  top: 70px;
+}
+#contact-info {
+  height: 200px;
+  text-align: center;
+}
+#contact-info h2 {
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+#contact-info h5 {
+  margin: 30px 0;
+}
+#copyright {
+  height: 70px;
+  text-align: left;
+}
+#copyright h5 {
+  margin-left: 20px;
+  padding-top: 22px;
+}
